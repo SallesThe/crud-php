@@ -56,7 +56,7 @@ function apagar($id){
     $con = conectar();
     $sql = "delete from pessoa where id = $id";
     if($con->query($sql) === true){
-        return "Ok ao Apagar";
+        return true;
     }else{
         return "Erro: $sql".$con->error;
     }

@@ -21,15 +21,15 @@ label, input {
 
 form {
     width: 330px;
-    background-color: #ffffff;
+    background-color: #5353531a;
     margin: 30px auto;
     padding: 20px;
 }
 
 table {
+
     width: 90%;
     margin: 30px auto;
-    background-color: yellow;
 }
 
 .title {
@@ -44,12 +44,14 @@ table {
     width: 35%;
     height: 100vh;
     float: left;
-    background-color: red;
 }
 
 .right {
+    display: flex;
+    text-align: center;
+    overflow: auto;
     width: 65%;
+    justify-content: center;
     float: right;
-    height: 100vh;
-    background-color: blue;
+    height: 80vh;
 }
