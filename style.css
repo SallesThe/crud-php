@@ -55,3 +55,9 @@ table {
     float: right;
     height: 80vh;
 }
+
+.form__input__radio {
+    display: flex; 
+    flex-direction: row;
+    margin: 20px auto;
+}
